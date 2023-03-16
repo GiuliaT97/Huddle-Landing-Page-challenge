@@ -1,0 +1,207 @@
+
+body{
+
+    --ff-open: 'Open Sans', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    margin:4rem;
+   
+    
+}
+
+
+
+
+
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1210px;
+
+}
+
+
+
+.main{
+
+    display: flex;
+    margin-top: 3rem;
+
+
+}
+
+
+.text{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    justify-content: flex-start;
+    
+
+}
+
+
+.text h1{
+
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    margin-right: 3rem;
+
+    
+
+}
+
+
+
+.text p{
+
+    font-family: var(--ff-open);
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.button_container{
+
+display: flex;
+
+}
+
+
+.button{
+
+    background-color: white;
+    border-radius: 26px;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    color: hsl(257, 40%, 49%);
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+
+}
+
+
+
+.button:hover{
+
+cursor: pointer;
+color: white;
+background-color: hsl(300, 69%, 71%);
+
+}
+
+
+
+.icons{
+
+    display: flex;
+    max-height: 40px;
+    margin-top: 2rem;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin-right:6rem;
+    
+}
+
+
+
+.icons svg{
+
+    width: 5%;
+
+}
+
+.icons path:hover{
+
+    fill: hsl(300, 69%, 71%);
+    cursor: pointer;
+
+
+}
+
+
+
+@media (max-width:1150px){
+
+
+body{
+
+    background-size: cover;
+
+}
+
+
+.container{
+
+    margin-top: 0;
+
+}
+
+.main{
+
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.text{
+
+    justify-content: center;
+    margin-left: 0;
+
+}
+
+.text p{
+
+    text-align: center;
+    
+}
+
+.text h1{
+
+    text-align: center;
+    margin-right: 0;
+
+}
+
+
+.button_container{
+
+
+    justify-content: center;
+
+}
+
+
+
+.icons{
+
+    justify-content: center;
+    margin-right: 0;
+
+}
+
+
+.icons svg{
+
+    padding: 5px;
+    width: 7%;
+
+}
+
+}
